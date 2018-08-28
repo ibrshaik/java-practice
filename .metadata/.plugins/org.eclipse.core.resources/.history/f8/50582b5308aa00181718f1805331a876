@@ -1,0 +1,25 @@
+package com.git.test.java;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.commons.collections4.CollectionUtils;
+
+public class ListDemo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<String> list = new ArrayList<>();
+		
+		list.add("");
+		
+		System.out.println(list);
+		System.out.println("is empty"+list.isEmpty());
+		System.out.println("size "+list.size());
+		System.out.println(list.contains(""));
+		
+
+	}
+
+}

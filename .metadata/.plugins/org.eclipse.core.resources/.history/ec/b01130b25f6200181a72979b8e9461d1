@@ -1,0 +1,40 @@
+package com.git.test.java;
+
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.ZoneId;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+public class AgeCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Date dob = new Date(1989,01,13);
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy MMM dd");	
+		
+		Calendar calendar = new GregorianCalendar(2013,1,28);	
+		System.out.println("#1. " + sdf.format(calendar.getTime()));
+
+		//update a date
+		calendar.set(Calendar.YEAR, 2014);
+		calendar.set(Calendar.MONTH, 11);
+		calendar.set(Calendar.MINUTE, 33);
+			
+		System.out.println("#2. " + sdf.format(calendar.getTime()));
+		System.out.println("given age is "+dob);
+		calculateAge(dob);
+	}
+	
+	public static void calculateAge(Date dob){
+		LocalDate memberDOB = dob.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+		
+		
+		Period p = Period.between(memberDOB, today);
+		
+		System.out.println(p.getYears());
+	}
+}

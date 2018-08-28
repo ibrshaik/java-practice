@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.ibrshaik.quest.QuestSpringbootApplication.java&apos; to &apos;Application.java&apos;&#x0D;&#x0A;- Original project: &apos;quest-springboot&apos;&#x0D;&#x0A;- Original element: &apos;com.ibrshaik.quest.QuestSpringbootApplication.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ibrshaik.quest.Application.java&apos;" description="Rename compilation unit &apos;QuestSpringbootApplication.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;com.ibrshaik.quest{QuestSpringbootApplication.java" name="Application.java" references="false" stamp="1532956021049" version="1.0"/>
+</session>

@@ -1,0 +1,28 @@
+package com.git.test.java;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+
+public class StreamList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//List<String> list = new ArrayList<>();
+		List<String> list = null;
+		/*list.add("one");
+		list.add("oe");
+		list.add("one2");
+		list.add("one3");
+		list.add("one");
+		list.add("one5");*/
+		System.out.println(list);
+		
+		list = list.stream().limit(3).collect(Collectors.toList());
+		
+		System.out.println("=========");
+		System.out.println(list);
+	}
+
+}

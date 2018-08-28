@@ -1,0 +1,21 @@
+package com.git.test.java;
+
+public class DoubleComparePojo {
+	
+	private String name;
+	private Double len;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Double getLen() {
+		return len;
+	}
+	public void setLen(Double len) {
+		this.len = len;
+	}
+	
+	
+}

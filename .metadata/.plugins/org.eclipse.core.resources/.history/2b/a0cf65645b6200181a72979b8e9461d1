@@ -1,0 +1,10 @@
+package com.git.test.java;
+
+public class StreamsFileterExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

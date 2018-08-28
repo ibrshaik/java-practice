@@ -1,0 +1,26 @@
+package com.git.test.java;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class DoubleCompareExample {
+
+	public static void main(String[] args) {
+		
+		List<Double> list1 = new ArrayList<>();
+		
+		
+		list1.add(12.123);
+		list1.add(2.123);
+		list1.add(4.123);
+		list1.add(12.0123);
+		list1.add(6.123);
+		list1.add(0.1234);
+		
+		Collections.sort(list1,Double.compare(list1, list2));
+		
+		
+	}
+
+}

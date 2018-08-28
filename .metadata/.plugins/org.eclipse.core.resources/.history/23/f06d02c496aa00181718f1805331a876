@@ -1,0 +1,13 @@
+package com.git.test.java;
+
+import java.sql.Date;
+import java.time.LocalDate;
+import java.time.ZoneId;
+
+public class LocalDateInstant {
+	public static void main(String[] args) {
+		Date input = new Date(0);
+		LocalDate date = input.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+		System.out.println(date);
+	}
+}

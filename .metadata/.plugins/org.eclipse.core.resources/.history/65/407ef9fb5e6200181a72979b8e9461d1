@@ -1,0 +1,25 @@
+package com.git.test.java;
+
+import java.util.Date;
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.ZoneId;
+
+public class AgeCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Date dob = new Date();
+		System.out.println("given age is "+dob);
+		calculateAge(dob);
+	}
+	
+	public static void calculateAge(Date dob){
+		LocalDate date = dob.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+		LocalDate begin = LocalDate.parse(dob);
+		LocalDate today = LocalDate.now();
+		Period p = Period.between(begin, today);
+		
+		System.out.println(p.getYears());
+	}
+}

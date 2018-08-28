@@ -1,0 +1,11 @@
+
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(·ΌΊ8§Βφµ,H0RMAJORZ
+CODE_SMELL
+p
+squid:S106"9Replace this use of System.out or System.err by a logger.(ν›αυώÿÿÿÿ8§Βφµ,HDRMAJORZ
+CODE_SMELL
+^squid:S1148 "#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8Ι―φµ,HERMINORZVULNERABILITY
+p
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨ΰµ¦ωÿÿÿÿ8§Βφµ,HCRMAJORZ
+CODE_SMELL

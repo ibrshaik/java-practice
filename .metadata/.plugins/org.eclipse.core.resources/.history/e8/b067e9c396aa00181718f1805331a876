@@ -1,0 +1,22 @@
+package com.git.test.java;
+
+public class EqualsIgnoreCaseTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String one = "one";
+		String two = "two";
+		String all = ".+";
+		
+		System.out.println("one case "+one.equalsIgnoreCase("one"));
+		System.out.println("two case "+two.equalsIgnoreCase("two"));
+		System.out.println("All case "+all.equalsIgnoreCase("all"));
+		
+		System.out.println("using mathches");
+		
+		System.out.println("one case "+one.matches("one"));
+		System.out.println("two case "+two.matches("two"));
+		System.out.println("All case "+all.matches("all"));
+	}
+
+}

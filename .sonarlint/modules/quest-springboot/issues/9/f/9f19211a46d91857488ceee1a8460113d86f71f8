@@ -1,0 +1,19 @@
+
+ksquid:S2589."7Remove this expression which always evaluates to "true"(åğ¢¤8«ØìıĞ,Hó
+RMAJORZ
+CODE_SMELL
+isquid:S14810"5Remove this unused "sortedByPoolList" local variable.(‘£ŸÂ8«ØìıĞ,Hô
+RMINORZ
+CODE_SMELL
+`squid:S1481(",Remove this unused "dummyId" local variable.(’ñç8«ØìıĞ,Hõ
+RMINORZ
+CODE_SMELL
+osquid:S1854,";Remove this useless assignment to local variable "dummyId".(ÑŞ¬û8«ØìıĞ,Hö
+RMAJORZ
+CODE_SMELL
+xsquid:S18540"DRemove this useless assignment to local variable "sortedByPoolList".(‘£ŸÂ8«ØìıĞ,H÷
+RMAJORZ
+CODE_SMELL
+Nsquid:S1700"Rename field "poolService"(†üÒ8«ØìıĞ,Hø
+RMAJORZ
+CODE_SMELL

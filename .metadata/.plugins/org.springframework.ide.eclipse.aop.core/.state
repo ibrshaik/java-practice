@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="spring-cloud-config"/>
+<aop-project name="schoolMS">
+<aspect-definition advice-class-name="com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCommandAspect" advice-method-name="methodsAnnotatedWithHystrixCommand(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="-1" aspect-name="hystrixCommandAspect" aspect-start-line-number="-1" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/schoolMS/src/main/java/com/example/demo/SchoolMsApplication.java" pointcut-expression="hystrixCommandAnnotationPointcut() || hystrixCollapserAnnotationPointcut()" proxy-target-class="true">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:schoolMS|3:java:com.example.demo.SchoolMsApplication|8:studentServiceDelegate:15" bean-file="/schoolMS/src/main/java/com/example/demo/StudentServiceDelegate.java" bean-start-line="15" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/schoolMS/src/main/java/com/example/demo/SchoolMsApplication.java" source="=schoolMS/C:\/Users\/ibrshaik\/.m2\/repository\/com\/netflix\/hystrix\/hystrix-javanica\/1.5.12\/hystrix-javanica-1.5.12.jar&lt;com.netflix.hystrix.contrib.javanica.aop.aspectj(HystrixCommandAspect.class[HystrixCommandAspect~methodsAnnotatedWithHystrixCommand~Lorg.aspectj.lang.ProceedingJoinPoint;" source-start-line="-1" target="=schoolMS/src\/main\/java&lt;com.example.demo{StudentServiceDelegate.java[StudentServiceDelegate~callStudentServiceAndGetData~QString;" target-start-line="21"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="quest-springboot"/>
+<aop-project name="SpringBootReadFromConfigFile"/>
+<aop-project name="collector-app1"/>
+<aop-project name="studentMS"/>
+</aop-reference-model>

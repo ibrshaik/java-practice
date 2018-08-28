@@ -1,0 +1,26 @@
+package com.git.test.java;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class NewLineAppender {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> list = new ArrayList<>();
+		
+		list.add("one");
+		list.add("two");
+		list.add("threee");
+		list.add("four");
+		
+		System.out.println(list);
+		
+		for(String s : list){
+			//StringBuilder s2 = s.append("\n",s);
+		}
+
+	}
+
+}

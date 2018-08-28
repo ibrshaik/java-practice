@@ -1,0 +1,62 @@
+package com.git.test.java;
+
+import java.text.ParseException;
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
+
+public class AgeCalculator {
+
+
+
+	public static void main(String[] args) throws ParseException {
+		// TODO Auto-generated method stub
+		
+		String s = "2000-08-27";
+		calculateAge(s);
+	}
+	
+	
+	 /**
+	 * using Java 8 LocalDate
+	 */
+	public static void calculateAge(String dob){
+		DateTimeFormatter formatter =  DateTimeFormatter.ofPattern("yyyy-MM-dd");
+		//DateTimeFormatter formatter = DateTimeFormatter.BASIC_ISO_DATE;
+		LocalDate memberDOB = LocalDate.parse(dob,formatter);
+		LocalDate today = LocalDate.now();
+		Period p = Period.between(memberDOB, today);
+		int age =18;
+		//Period p = Period.between(LocalDate.parse(dob), today);
+		System.out.println("age is "+p);
+		if(age==p.getYears() && p.getMonths()<=0 && p.getDays()<=0) {
+			System.out.println("Pediatric");
+		}
+		else if (age>p.getYears()) {
+			System.out.println("Pediatric");
+		}
+		else 
+			System.out.println("Non pediatric");
+	}
+	
+	/**
+	 *  Using gregorian calendar
+	 */
+	/*public static void calculateAge(Date dob){
+		int age ;
+		Calendar memberDob = new GregorianCalendar();
+		Calendar currentDate = new GregorianCalendar();
+		memberDob.setTime(dob);
+		System.out.println(dob);
+		currentDate.setTime(new Date());
+		System.out.println(new Date());
+		
+		if(currentDate.get(Calendar.DAY_OF_YEAR) < memberDob.get(Calendar.DAY_OF_YEAR)) {
+            System.out.println(" invalid date"); 
+      }
+      age = currentDate.get(Calendar.YEAR) - memberDob.get(Calendar.YEAR);
+      System.out.println(currentDate.get(Calendar.YEAR));
+      System.out.println(memberDob.get(Calendar.YEAR));
+      System.out.println("Your age is: "+age);
+	}*/
+}

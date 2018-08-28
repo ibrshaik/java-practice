@@ -1,0 +1,21 @@
+package com.git.test.java;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		List<String> list1 = new ArrayList<>();
+		List<String> lsit2 = new ArrayList<>();
+		
+		System.out.println("list1 size is "+list1.size());
+		System.out.println("list2 size is "+lsit2.size());
+		
+		lsit2.addAll(list1);
+		System.out.println("after adding size "+lsit2.size());
+		
+	 }
+	
+	
+}

@@ -1,0 +1,18 @@
+package com.git.test.java;
+
+import org.apache.commons.lang3.StringUtils;
+
+public class StringUtilsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String test = " 1233   " ;
+		
+		System.out.println(StringUtils.isBlank(test));
+		System.out.println(StringUtils.isEmpty(test));
+		
+
+	}
+
+}

@@ -1,0 +1,6 @@
+
+‰squid:UselessImportCheck"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8€æ¸·,HóRMINORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å»°«üÿÿÿÿ8´‘Åõ¶,HĞRMAJORZ
+CODE_SMELL

@@ -1,0 +1,7 @@
+
+Цsquid:UselessImportCheck"PRemove this unused import 'org.springframework.web.bind.annotation.RequestBody'.(тн╜└¤    8ж┌▄┘╬,HП
+RMINORZ
+CODE_SMELL
+^squid:S3457"%String contains no format specifiers.(╝Бе¤¤    8Т х┘╬,HФ
+RMAJORZ
+CODE_SMELL

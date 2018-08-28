@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;45692179&apos; to &apos;SpringBootReadFromConfigFile&apos;" description="Rename resource &apos;45692179&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/45692179" name="SpringBootReadFromConfigFile" stamp="1531888810617" updateReferences="true"/>
+</session>

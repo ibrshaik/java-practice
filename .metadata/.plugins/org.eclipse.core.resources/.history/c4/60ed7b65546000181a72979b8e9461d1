@@ -1,0 +1,20 @@
+package com.git.test.java;
+
+import java.sql.Date;
+import java.time.LocalDate;
+import java.time.Period;
+
+public class AgeCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Date dob = 1989-01-13;
+		System.out.println("given age is "+dob);
+		calculateAge(dob);
+	}
+	
+	public static void calculateAge(Date dob){
+		LocalDate today = LocalDate.now();
+		Period p = Period.between(dob, today);
+	}
+}

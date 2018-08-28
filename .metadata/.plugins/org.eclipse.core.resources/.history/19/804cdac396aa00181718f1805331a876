@@ -1,0 +1,35 @@
+package com.git.test.java;
+
+import java.util.ArrayList;
+
+import org.apache.commons.lang3.StringUtils;
+import java.util.List;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		//String x = "   abc  ";
+		int t = 99999999;
+		
+		String x = "010";
+		int y = Integer.parseInt(x);
+		System.out.println(y);
+		
+		System.out.println(x.equals(y));
+		
+		//System.out.println(StringUtils.isBlank(x));
+		//System.out.println(StringUtils.isEmpty(x));
+		/*System.out.print(StringUtils.trim(x));;
+		StringUtils.strip(x);
+		System.out.print(x);
+		System.out.print(x);
+		System.out.print(x.trim());;
+		System.out.print(x);*/
+		System.out.println(t);
+		
+		//System.out.println(x.trim());
+		
+	 }
+	
+	
+}
